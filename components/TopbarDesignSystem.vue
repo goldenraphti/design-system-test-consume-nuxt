@@ -1,6 +1,6 @@
 <script>
 import { topbar } from "@swedbankpay/design-guide";
-topbar.init();
+topbar?.init();
 </script>
 
 <template>
@@ -31,8 +31,8 @@ topbar.init();
               <a href="#" class="active pinned">
                 <span>Home</span>
               </a>
-              <a href="#" class="pinned">
-                <span>Merchant details</span>
+              <a href="/flags" class="pinned">
+                <span>Flags</span>
               </a>
               <a href="#">
                 <span>Transactions</span>

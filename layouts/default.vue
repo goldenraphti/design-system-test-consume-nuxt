@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- <TopbarDesignSystem /> -->
+    <TopbarDesignSystem />
     <slot />
   </div>
 </template>
