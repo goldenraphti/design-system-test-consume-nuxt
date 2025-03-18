@@ -1,6 +1,10 @@
-<script>
+<script setup>
 import { topbar } from "@swedbankpay/design-guide";
-topbar?.init();
+import { onMounted } from "vue";
+
+onMounted(() => {
+  topbar.init();
+});
 </script>
 
 <template>

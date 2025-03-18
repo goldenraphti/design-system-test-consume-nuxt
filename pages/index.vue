@@ -1,6 +1,9 @@
-<script>
+<script setup>
 import { dialog } from "@swedbankpay/design-guide";
-dialog?.init();
+
+onMounted(() => {
+  dialog.init();
+});
 </script>
 
 <template>
